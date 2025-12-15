@@ -1,9 +1,6 @@
-# ARM Cranes - Internship Assignment
-
-A premium crane hiring website built for **ARM Technologies** as part of the Web Developer Intern selection process.
-
+# ARM Cranes -
 ## 🚀 Live Demo
-[Insert your Netlify/Vercel Link Here]
+https://ameyg11.github.io/craneHiring/
 
 ## 🛠 Tech Stack
 - **Framework:** React.js (Vite)
