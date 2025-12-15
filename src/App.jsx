@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/craneHiring">
         <div className="flex flex-col min-h-screen bg-gray-50">
           <Navbar />
 

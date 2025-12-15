@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // ✅ REQUIRED
   ],
-  base: "/crane-hiring/",
+  base: "/craneHiring/",
 })
