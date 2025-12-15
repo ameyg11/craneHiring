@@ -1,16 +1,79 @@
-# React + Vite
+# ARM Cranes - Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium crane hiring website built for **ARM Technologies** as part of the Web Developer Intern selection process.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Insert your Netlify/Vercel Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Framework:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router DOM
+- **Forms:** React Hook Form
+- **Icons:** Lucide React
 
-## React Compiler
+## ✨ Features
+- **Modern UI/UX:** Dark industrial theme with glassmorphism and parallax effects.
+- **Interactive Fleet Catalog:** Filterable list of cranes with detailed specs.
+- **Dynamic Contact Form:** Includes an "Emergency Mode" toggle and live validation.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop.
+- **SEO Friendly:** Meta tags and titles implemented for all pages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Setup Instructions
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone [your-repo-link]
+   cd crane-hiring
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Dependencies
+
+Bash
+
+npm install
+Run Development Server
+
+Bash
+
+npm run dev
+Build for Production
+
+Bash
+
+npm run build
+📂 Project Structure
+src/
+├── components/   # Reusable UI components (Navbar, Footer, SEO)
+├── pages/        # Main route pages (Home, Services, About, Contact)
+├── assets/       # Static images
+└── App.jsx       # Main application layout
+Submitted by: Amey Gawade
+
+
+---
+
+### **Step 4: Deployment (Requirement #5)**
+The easiest way to host this for free is **Netlify**.
+
+1.  **Push your code to GitHub.**
+    * Create a new repo on GitHub.
+    * Run:
+        ```bash
+        git init
+        git add .
+        git commit -m "Initial commit"
+        git branch -M main
+        git remote add origin [YOUR_GITHUB_REPO_URL]
+        git push -u origin main
+        ```
+2.  **Deploy to Netlify:**
+    * Go to [Netlify.com](https://www.netlify.com/) and log in with GitHub.
+    * Click "Add new site" -> "Import from existing project".
+    * Select your `crane-hiring` repository.
+    * **Build Settings:**
+        * Build command: `npm run build`
+        * Publish directory: `dist`
+    * Click **Deploy Site**.
+
+**Once you do this, you will have the "Live Demo URL" required for the email submission.**
