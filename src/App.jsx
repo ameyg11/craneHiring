@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -22,11 +23,7 @@ function App() {
             </Routes>
           </main>
 
-          <footer className="bg-gray-900 text-white py-6 text-center mt-auto">
-            <p className="text-sm">
-              © 2025 ARM Technologies. All rights reserved.
-            </p>
-          </footer>
+          <Footer />
         </div>
       </BrowserRouter>
     </>
